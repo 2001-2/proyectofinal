@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/restau1"
+    tools:context=".Inicio">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="164dp"
+        android:layout_height="55dp"
+        android:fontFamily="serif"
+        android:text="Ubicacion"
+        android:textColor="#F1EFEF"
+
+        app:backgroundTint="#F13527"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.93" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="183dp"
+        android:layout_height="59dp"
+        android:fontFamily="serif"
+        android:onClick="administrador"
+        android:text="Administrador"
+        android:textColor="#FBF7F7"
+        app:backgroundTint="#4557B6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="183dp"
+        android:layout_height="61dp"
+        android:fontFamily="serif"
+        android:onClick="chef"
+        android:text="Gefe de cocina"
+        android:textColor="#F1EFEF"
+        app:backgroundTint="#A85151"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.565" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="184dp"
+        android:layout_height="56dp"
+        android:fontFamily="serif"
+        android:onClick="cliente"
+
+        android:text="Cliente"
+        android:textColor="#F1EFEF"
+        app:backgroundTint="#201D1C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.674" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="349dp"
+        android:layout_height="115dp"
+        android:fontFamily="cursive"
+        android:text="Bienvenido"
+        android:textColor="#ECB2B2"
+        android:textSize="85sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063" />
+</android.support.constraint.ConstraintLayout>
